@@ -7,7 +7,7 @@ export class GifsService {
     public gifList: Gif[] = []
     private _tagsHistory: string[] = []
     private apiKey: string = '2GS7HSLOvI1NDEAnpgKJQdjqZ83c7TMr'
-    private serviceUrl: string = 'http://api.giphy.com/v1/gifs/'
+    private serviceUrl: string = 'https://api.giphy.com/v1/gifs/'
 
     // 'search?api_key=2GS7HSLOvI1NDEAnpgKJQdjqZ83c7TMr&q=valorant&limit=10'
     constructor(private http: HttpClient) {
